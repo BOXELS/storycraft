@@ -1,0 +1,23 @@
+---
+description: This repository publishes cursor-rules-rea. It is the only REA Cursor template. Never fill placeholders or inspect a real target here unless the user is converting a clone.
+alwaysApply: true
+---
+
+# Template repository
+
+This repo **publishes** cursor-rules-rea. It is the REA counterpart to BOXELS/cursor-rules. It is not an investigation and there is no companion REA-TEMPLATE product.
+
+Copiers take the rules (not this file), the skills, `worker.md`, `.claude/agents/`, `AGENTS.md`, and optionally `docs/` plus `investigations/_template/`.
+
+## Do not
+
+- Do not send users to a second template repo.
+- Do not run `/start-investigation` against a real target here unless they chose "starting a real investigation from a clone."
+- Do not replace placeholders except when authoring the template.
+
+## Do
+
+- Keep REA lawful-use rules in `rea.mdc` and `security.mdc` intact.
+- When a change affects how copies are used, update `README.md` in the same change.
+
+**This file wins on identity.**

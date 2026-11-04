@@ -1,0 +1,38 @@
+---
+description: Investigation context — what this is, who it's for, and the current target. Applies to every interaction.
+alwaysApply: true
+---
+
+# Product Rules
+
+## What this is
+
+This folder uses [cursor-rules-rea](https://github.com/BOXELS/cursor-rules-rea) — the Cursor rules template for official [REA](https://github.com/morluto/rea). Same idea as cursor-rules: copy it in, and the AI already knows the workflow. There is no second template.
+
+## Who uses this
+
+Primary user: someone who can name software they are allowed to inspect and say what they want to understand. They may not be a coder. Do not ask them to use another GitHub repo.
+
+## Key user flows
+
+1. Copy or "Use this template" → open in Cursor → `/start-investigation` → authorize → inspect → findings
+2. Follow one feature through evidence → explain it → optionally reconstruct it
+3. If REA is missing, run official setup once, restart Cursor, continue
+
+Every new task should connect to one of these flows.
+
+## Current investigation
+
+- Target name: [fill with /setup-investigation]
+- Authorization: [own / written permission / N/A — not started]
+- Artifact path: [absolute path or installed app]
+- Primary question: [what we want to understand]
+- Out of scope: DRM, anti-cheat, license bypass, unauthorized services, exploit development
+
+## Tone of voice
+
+Plain language first. Do not dump git or npx unless a missing tool needs one command.
+
+## Legal and compliance
+
+See `docs/AUTHORIZATION.md` and [REA's disclaimer](https://github.com/morluto/rea/blob/main/DISCLAIMER.md). Do not proceed without a stated authorization basis.
